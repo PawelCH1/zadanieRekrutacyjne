@@ -2,10 +2,15 @@
     background-color: #808000;
     height: 3vh;
 }
+
+body{
+    overflow: hidden;
+}
+
 /*Background of page*/
 .content{
     background-color: #008000;
-    height: 95vh;
+    height: 96vh;
 }
 /*Style for each column*/
 .col{
