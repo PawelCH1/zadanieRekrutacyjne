@@ -1,0 +1,62 @@
+.header{
+    background-color: #808000;
+    height: 3vh;
+}
+
+.content{
+    background-color: #008000;
+    height: 95vh;
+}
+
+.col{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.row2{
+    display: none;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+#sq1{
+    margin: 10px auto 5px 50%;
+}
+
+#sq2{
+    margin: 5px 50% 5px auto;
+}
+
+.rectangle{
+    height: 25px;
+    width: 100px;
+    background-color: blue;
+}
+
+#r1{
+    margin: 100px auto 5px auto;
+}
+
+#r2{
+    margin: 5px auto 5px auto;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #008080;
+    margin: 100px auto 5px auto;
+}
+
+p{
+    margin: 50px 5px 5px 5px;
+    text-align: center;
+    background-color: white; 
+}
