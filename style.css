@@ -2,18 +2,18 @@
     background-color: #808000;
     height: 3vh;
 }
-
+/*Background of page*/
 .content{
     background-color: #008000;
     height: 95vh;
 }
-
+/*Style for each column*/
 .col{
     width: 25%;
     float: left;
     text-align: center;
 }
-
+/*Turn off second half of first column in desktop view*/
 .row2{
     display: none;
 }
@@ -62,11 +62,11 @@ p{
 }
 
 @media only screen and (min-width: 583px) and (max-width: 900px) {
-
+/*Turn off second and third column from desktop view*/
     #col2, #col3{
         display: none;
     }
-
+/*Turn on second half of first column*/
     .row2{
         display: block;
     }
@@ -82,7 +82,7 @@ p{
 }
 
 @media only screen and (max-width: 583px){
-
+/*Turn off second half of first column in smartphone view*/
     .row2{
         display: none;
     }
