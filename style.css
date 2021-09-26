@@ -60,3 +60,23 @@ p{
     text-align: center;
     background-color: white; 
 }
+
+@media only screen and (min-width: 583px) and (max-width: 900px) {
+
+    #col2, #col3{
+        display: none;
+    }
+
+    .row2{
+        display: block;
+    }
+
+    #col1, #col4, #col1R, #col2R{
+        width: 50%;
+    }
+
+    p{
+        background-color: #c83737;
+    }
+
+}
